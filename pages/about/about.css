@@ -1,0 +1,25 @@
+ion-content
+ {background: linear-gradient(to bottom, #dad299, #b0dab9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+h2{
+  color: rgb(0, 0, 0);
+  font-family: Georgia, serif;
+  text-align: center;
+}
+h3{
+  text-align: left;
+  font-weight: px;
+}
+em{
+  color: rgb(192, 192, 211);
+}
+p {
+  font-family: system-ui;
+  text-align: center;
+  font-size: ;
+  
+}
+
+p.about{
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+}

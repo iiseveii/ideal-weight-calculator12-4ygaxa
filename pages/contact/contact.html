@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>IBW Calculator</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Ideal Weight Calculator</h2>
+  Height in:
+  <br /><br />
+  <input type="number" name="ft" [(ngModel)] = "ft"> feet
+  <input type="number" name="inches" [(ngModel)] = "inches"> inches <br /><br />
+  <select [(ngModel)] = "sex">
+    <option value="m">Male</option> 
+    <option value="f">Female</option>
+  </select>
+  <br /><br />
+  <button ion-button color="primary" (click) = "compute()" >Compute</button>
+  <h3>Ideal weight according to:</h3>
+  <p>
+  Miller (1983) = {{M}}kg.
+  <br />
+  Robinson (1983) = {{R}}kg.
+  <br />
+  Devine (1983) = {{D}}kg.
+  <br />
+  Hamwi (1983) = {{H}}kg.
+  </p>
+</ion-content>
