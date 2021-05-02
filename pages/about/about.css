@@ -1,25 +1,40 @@
 ion-content
  {background: linear-gradient(to bottom, #dad299, #b0dab9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+ div{
+   margin-top: 5%;
+ }
+ div.dev{
+   margin: 5%;
+ }
 h2{
   color: rgb(0, 0, 0);
   font-family: Georgia, serif;
   text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
 }
 h3{
-  text-align: left;
-  font-weight: px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
 }
 em{
-  color: rgb(192, 192, 211);
+  color:blue;
+}
+img.photo{
+  width: 200px;
+  height: 200px;
+  
 }
 p {
   font-family: system-ui;
   text-align: center;
-  font-size: ;
+  font-size: 15px;
   
 }
 
 p.about{
   font-family:  Georgia, 'Times New Roman', Times, serif;
-  text-align: left;
+  text-align: center;
 }
